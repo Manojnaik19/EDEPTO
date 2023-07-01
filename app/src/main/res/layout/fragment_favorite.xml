@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/favouriteFrag"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#501C13"
+    tools:context=".FavoriteFragment">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="359dp"
+        android:layout_height="433dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginBottom="21dp"
+        android:fontFamily="@font/montserrat_extralight"
+        android:text="Edepto is an innovative digital tool that revolutionizes the way students access and engage with educational resources.This user-friendly application provides a comprehensive library of academic materials, including textbooks, lecture notes,all conveniently accessible from a single platform.The app enables students to quickly find relevant content based on their subjects of study, saving them valuable time and effort.Edepto empowers students with a vast array of knowledge at their fingertips, fostering efficient and effective learning in the digital age."
+        android:textColor="#BF8118"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/button1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button1"
+        style="@android:style/Widget.Button"
+        android:layout_width="326dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/background_color"
+        android:fontFamily="@font/montserrat_extralight"
+        android:text="Text Books"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.805" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

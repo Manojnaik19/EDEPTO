@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "951602485088",
+    "project_id": "sahyadri-resources",
+    "storage_bucket": "sahyadri-resources.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:951602485088:android:fda0bb18cf92e6dc71f005",
+        "android_client_info": {
+          "package_name": "com.example.test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "951602485088-g23jbeepejqdvuik1nnagsjn701318ck.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7rDr9aWBsJi5FHCSfIMeJo_FnJt4Bx54"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "951602485088-g23jbeepejqdvuik1nnagsjn701318ck.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

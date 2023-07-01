@@ -1,0 +1,112 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01" android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:background="@color/white">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/white"
+    tools:context=".cgpa">
+
+    <TextView
+        android:id="@+id/textViewNumOfSemesters"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/montserrat_extralight"
+        android:text="Enter the number of semesters:"
+        android:textColor="#BF8118"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/editTextNumOfSemesters"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewNumOfSemesters"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#AE1818"
+        android:fontFamily="@font/montserrat_extralight"
+        android:inputType="number"
+        android:textColor="#090909" />
+
+    <LinearLayout
+        android:id="@+id/layoutSemesters"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/editTextNumOfSemesters"
+        android:visibility="gone"
+        android:textColor="@color/white">
+
+        <!-- SGPA EditTexts will be dynamically added here -->
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonAddSemesters"
+
+        style="@android:style/Widget.Button"
+        android:layout_width="294dp"
+        android:layout_height="56dp"
+        android:layout_below="@id/layoutSemesters"
+        android:layout_marginStart="50dp"
+        android:background="@drawable/background_color"
+
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="32dp"
+
+        android:layout_marginBottom="18dp"
+
+
+
+        android:fontFamily="@font/montserrat_extralight"
+        android:text="Add Semesters"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonCalculate"
+
+        style="@android:style/Widget.Button"
+        android:layout_width="294dp"
+        android:layout_height="56dp"
+        android:layout_below="@id/buttonAddSemesters"
+        android:background="@drawable/background_color"
+        android:layout_marginStart="50dp"
+
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="0dp"
+
+
+
+
+        android:fontFamily="@font/montserrat_extralight"
+
+        android:text="Calculate CGPA"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonCalculate"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+
+        android:fontFamily="@font/montserrat_extralight"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+</RelativeLayout>
+</ScrollView>
+
